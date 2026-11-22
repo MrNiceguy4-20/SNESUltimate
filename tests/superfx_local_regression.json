@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "name": "Star Fox (U) (V1.2) GSU-1 boot",
+      "rom": "../rom/Star Fox (U) (V1.2).smc",
+      "rom_sha256": "82e39dfbb3e4fe5c28044e80878392070c618b298dd5a267e5ea53c8f72cc548",
+      "expected_hardware": "SuperFX / GSU-1",
+      "expected_hardware_support": "functional / timing approximate",
+      "require_hardware_implemented": true,
+      "frames": 240,
+      "determinism_runs": 2,
+      "framebuffer_hash": "d8fe615d30a69cb5",
+      "audio_hash": "33fc5004325fedfd",
+      "timeout_seconds": 60
+    },
+    {
+      "name": "Star Fox 2 (USA) GSU-2 boot",
+      "rom": "../rom/Star Fox 2 (USA).sfc",
+      "rom_sha256": "e134f20f6ee7d422d06faea6b1ae1e4101d1d0a200a0571d715d1cf23d959e8c",
+      "expected_hardware": "SuperFX 2 / GSU-2",
+      "expected_hardware_support": "implemented",
+      "require_hardware_implemented": true,
+      "frames": 240,
+      "determinism_runs": 2,
+      "framebuffer_hash": "5c244e8fee82f07c",
+      "audio_hash": "dddbe630084a7e71",
+      "timeout_seconds": 60
+    },
+    {
+      "name": "Doom (E) GSU-2 boot",
+      "rom": "../rom/Doom (E).smc",
+      "rom_sha256": "1c12660c99571692d2fba4ba871a1086b115486697e789f85fb939c55eeec7c7",
+      "expected_hardware": "SuperFX 2 / GSU-2",
+      "expected_hardware_support": "implemented",
+      "require_hardware_implemented": true,
+      "frames": 120,
+      "determinism_runs": 2,
+      "framebuffer_hash": "59a15e43b49f1a8b",
+      "audio_hash": "c9f0c1765644d435",
+      "timeout_seconds": 60
+    },
+    {
+      "name": "Yoshi's Island (E) (M3) (V1.1) GSU-2 boot",
+      "rom": "../rom/Super Mario World 2 - Yoshi's Island (E) (M3) (V1.1).smc",
+      "rom_sha256": "824f07e93c9ad38fe408af561e8979e3c0211f0c6c98aeb6e6bc85cd6f9edc91",
+      "expected_hardware": "SuperFX 2 / GSU-2",
+      "expected_hardware_support": "implemented",
+      "require_hardware_implemented": true,
+      "frames": 120,
+      "determinism_runs": 2,
+      "framebuffer_hash": "90976c9b8cfb34ff",
+      "audio_hash": "6e48feb4db06b6ca",
+      "timeout_seconds": 60
+    }
+  ]
+}
