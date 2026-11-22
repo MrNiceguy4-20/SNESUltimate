@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "name": "gilyon 65C816 full conformance",
+      "rom": "external-roms/cputest-full.sfc",
+      "frames": 1800,
+      "determinism_runs": 2,
+      "test_number_watch_offset": "0x10",
+      "test_catalog": "external-roms/tests-full.txt",
+      "require_catalog_complete": true,
+      "timeout_seconds": 60
+    },
+    {
+      "name": "gilyon SPC700 conformance",
+      "rom": "external-roms/spctest.sfc",
+      "frames": 1800,
+      "oracle_spc_port": "0:1:2",
+      "oracle_spc_after_ipl": true,
+      "stop_on_oracle": true,
+      "require_pass": true,
+      "status": "pass",
+      "test_number_watch_offset": "0x4",
+      "test_catalog": "external-roms/tests.txt",
+      "timeout_seconds": 60
+    },
+    {
+      "name": "Example deterministic ROM",
+      "rom": "external-roms/example.sfc",
+      "frames": 120,
+      "determinism_runs": 2,
+      "framebuffer_hash": "0000000000000000",
+      "audio_hash": "0000000000000000",
+      "timeout_seconds": 30
+    }
+  ]
+}
